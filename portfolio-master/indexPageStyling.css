@@ -1,0 +1,42 @@
+h1 {
+    color: brown;
+    text-align: center;
+    margin-left: 150;
+}
+/* * {
+    border: solid;
+} */
+.grid{
+    background-color:rgb(160, 177, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 2px solid red;
+    border-radius: 50px;
+}
+.item{
+    background-color: rgb(220, 161, 255);
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header{
+    background-color: rgb(255, 186, 229);
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+p, h2{
+    text-align: center;
+}
+
+#menu{
+    border: solid;
+}
+
+body{
+    background-color: #94ffd2;
+}
